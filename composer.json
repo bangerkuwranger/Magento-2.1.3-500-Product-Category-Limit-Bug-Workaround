@@ -29,7 +29,7 @@
       		"registration.php"
     	],
     	"psr-4": {
-      		"bangerkuwranger\\magento-2-1-3-category-limit-bug-workaround\\": ""
+      		"Bangerkuwranger\\Categorylimitbugfix\\": ""
     	}
   	}
 

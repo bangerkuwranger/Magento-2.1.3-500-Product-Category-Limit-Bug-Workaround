@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference 
+            for="Magento\Catalog\Model\Indexer\Category\Product\Action\Full" 
+            type="Bangerkuwranger\Categorylimitbugfix\Model\Indexer\Product\Category\Action\Full" />
+</config>

@@ -1,0 +1,15 @@
+.htaccess.sample
+.modgit/
+.modman/
+var/
+/vendor/*
+.DS_Store
+vendor/
+vendor/*
+/vendor/**
+/vendor/
+/vendor/**/.git
+*.sql
+*.tar
+*.gz
+composer.lock

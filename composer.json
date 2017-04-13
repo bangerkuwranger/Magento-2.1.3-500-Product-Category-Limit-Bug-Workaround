@@ -1,0 +1,36 @@
+{
+    "name": "bangerkuwranger/magento-2-1-3-category-limit-bug-workaround",
+    "description": "Workaround for bug from v2.1.3 that arbitrarily limits indexed products in category to 500",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+    	{
+      		"name": "Chad A. Carino",
+      		"email": "artist@chadacarino.com",
+      		"homepage": "http://www.chadacarino.com"
+    	},
+    	{
+    		"name": "gclift",
+      		"homepage": "https://github.com/gclift"
+    	},
+    	{
+    		"name": "pravalitera",
+      		"homepage": "https://github.com/pravalitera"
+    	}
+  	],
+  	"autoload": {
+    	"files": [
+      		"registration.php"
+    	],
+    	"psr-4": {
+      		"Bangerkuwranger\\Categorylimitbugfix\\": ""
+    	}
+  	}
+
+}
